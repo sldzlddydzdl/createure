@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoolerController">
+
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="150dp"
+        android:text="ON"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/OFF"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="OFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="80dp"/>
+
+
+    <Button
+        android:id="@+id/Auto"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Auto"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="설정온도"
+        android:textSize="24sp"
+        android:id="@+id/textView_setValue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_setValue"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="온도를 입력해주세요." />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/NodeMcu1_Temp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/et_link_back"
+            android:textStyle="bold"
+            android:text="NodeMcu1_Temp" />
+
+        <Button
+            android:id="@+id/NodeMcu1_Humi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/et_link_back"
+            android:textStyle="bold"
+            android:text="NodeMcu1_Humi" />
+
+        <Button
+            android:id="@+id/NodeMcu2_Temp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/et_link_back4"
+            android:textStyle="bold"
+            android:text="NodeMcu2_Temp" />
+
+        <Button
+            android:id="@+id/NodeMcu2_Humi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/et_link_back4"
+            android:textStyle="bold"
+            android:text="NodeMcu2_Humi" />
+
+        <Button
+            android:id="@+id/NodeMcu3_Temp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/et_link_back6"
+            android:textStyle="bold"
+            android:text="NodeMcu3_Temp" />
+
+        <Button
+            android:id="@+id/NodeMcu3_Humi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/et_link_back6"
+            android:textStyle="bold"
+            android:text="NodeMcu3_Humi" />
+
+<!--        <Button-->
+<!--            android:id="@+id/NodeMcu4_Temp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="NodeMcu4_Temp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/NodeMcu4_Humi"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="NodeMcu4_Humi" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

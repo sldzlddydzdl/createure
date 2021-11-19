@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.temp_humi_graphs">
+
+    <application
+        android:usesCleartextTraffic="true"
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 페이지이동 위한 페이지 등록 -->
+        <activity android:name=".graph.ShowMcu1Temp" />
+        <activity android:name=".graph.ShowMcu1Humi" />
+        <activity android:name=".graph.ShowMcu2Temp" />
+        <activity android:name=".graph.ShowMcu2Humi" />
+        <activity android:name=".graph.ShowMcu3Temp" />
+        <activity android:name=".graph.ShowMcu3Humi" />
+        <activity android:name=".chart.Mcu1Table"/>
+        <activity android:name=".chart.Mcu2Table"/>
+        <activity android:name=".chart.Mcu3Table"/>
+        <activity android:name=".GraphMenu"/>
+        <activity android:name=".ChartMenu"/>
+        <activity android:name=".CoolerController"/>
+
+    </application>
+
+    <!-- 인터넷 권한 설정 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
